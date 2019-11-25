@@ -1,0 +1,10 @@
+# PynSource Version 1.2
+{'type':'meta', 'info1':'Lorem ipsum dolor sit amet, consectetur adipiscing elit is latin. Comments are saved.'}
+{'type':'umlshape', 'id':'PaquetesPersonales', 'x':267, 'y':123, 'width':190, 'height':29, 'attrs': '', 'meths': ''}
+{'type':'umlshape', 'id':'FamiliarPreso', 'x':82, 'y':125, 'width':140, 'height':64, 'attrs': '', 'meths': 'Lista'}
+{'type':'umlshape', 'id':'PoliciaPoliticaProxy', 'x':191, 'y':287, 'width':210, 'height':134, 'attrs': '_FamiliarPreso', 'meths': '__init__|Lista|accesoProductos|aprovarProductos'}
+{'type':'umlshape', 'id':'ABC', 'x':520, 'y':10, 'width':40, 'height':29, 'attrs': '', 'meths': ''}
+{'type':'edge', 'id':'PoliciaPoliticaProxy_to_PaquetesPersonales', 'source':'PoliciaPoliticaProxy', 'target':'PaquetesPersonales', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'PaquetesPersonales_to_ABC', 'source':'PaquetesPersonales', 'target':'ABC', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'FamiliarPreso_to_PaquetesPersonales', 'source':'FamiliarPreso', 'target':'PaquetesPersonales', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'FamiliarPreso_to_PoliciaPoliticaProxy', 'source':'FamiliarPreso', 'target':'PoliciaPoliticaProxy', 'uml_edge_type': 'composition'}

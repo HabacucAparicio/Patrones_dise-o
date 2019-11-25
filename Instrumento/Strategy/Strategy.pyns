@@ -1,0 +1,15 @@
+# PynSource Version 1.2
+{'type':'meta', 'info1':'Lorem ipsum dolor sit amet, consectetur adipiscing elit is latin. Comments are saved.'}
+{'type':'umlshape', 'id':'Castigos', 'x':140, 'y':80, 'width':101, 'height':119, 'attrs': '_e|estrategia', 'meths': '__init__|como_castigar'}
+{'type':'umlshape', 'id':'Estrategia', 'x':355, 'y':233, 'width':110, 'height':29, 'attrs': '', 'meths': ''}
+{'type':'umlshape', 'id':'EA', 'x':170, 'y':214, 'width':101, 'height':64, 'attrs': '', 'meths': 'crear_castigo'}
+{'type':'umlshape', 'id':'EB', 'x':328, 'y':114, 'width':101, 'height':64, 'attrs': '', 'meths': 'crear_castigo'}
+{'type':'umlshape', 'id':'EC', 'x':523, 'y':178, 'width':101, 'height':64, 'attrs': '', 'meths': 'crear_castigo'}
+{'type':'umlshape', 'id':'EH', 'x':269, 'y':339, 'width':101, 'height':64, 'attrs': '', 'meths': 'crear_castigo'}
+{'type':'umlshape', 'id':'ABC', 'x':488, 'y':318, 'width':40, 'height':29, 'attrs': '', 'meths': ''}
+{'type':'edge', 'id':'EB_to_Estrategia', 'source':'EB', 'target':'Estrategia', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Estrategia_to_ABC', 'source':'Estrategia', 'target':'ABC', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'EC_to_Estrategia', 'source':'EC', 'target':'Estrategia', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'EH_to_Estrategia', 'source':'EH', 'target':'Estrategia', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'EA_to_Estrategia', 'source':'EA', 'target':'Estrategia', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Estrategia_to_Castigos', 'source':'Estrategia', 'target':'Castigos', 'uml_edge_type': 'composition'}

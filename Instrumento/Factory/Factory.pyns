@@ -1,0 +1,22 @@
+# PynSource Version 1.2
+{'type':'meta', 'info1':'Lorem ipsum dolor sit amet, consectetur adipiscing elit is latin. Comments are saved.'}
+{'type':'umlshape', 'id':'Gulag_America', 'x':165, 'y':49, 'width':140, 'height':29, 'attrs': '', 'meths': ''}
+{'type':'umlshape', 'id':'Carcel', 'x':45, 'y':58, 'width':70, 'height':79, 'attrs': '', 'meths': 'aliados|villanos'}
+{'type':'umlshape', 'id':'Onu', 'x':137, 'y':164, 'width':66, 'height':79, 'attrs': '', 'meths': 'aliados|villanos'}
+{'type':'umlshape', 'id':'Ayuda', 'x':332, 'y':196, 'width':60, 'height':29, 'attrs': '', 'meths': ''}
+{'type':'umlshape', 'id':'NoAyuda', 'x':373, 'y':139, 'width':80, 'height':29, 'attrs': '', 'meths': ''}
+{'type':'umlshape', 'id':'Capitan_Mentiras', 'x':327, 'y':-10, 'width':170, 'height':79, 'attrs': '', 'meths': 'Mentiras|Castigos'}
+{'type':'umlshape', 'id':'Castro', 'x':521, 'y':77, 'width':70, 'height':79, 'attrs': '', 'meths': 'Mentiras|Castigos'}
+{'type':'umlshape', 'id':'Boitel', 'x':242, 'y':249, 'width':70, 'height':79, 'attrs': '', 'meths': 'Acciones|Platicas'}
+{'type':'umlshape', 'id':'Martha', 'x':479, 'y':207, 'width':70, 'height':79, 'attrs': '', 'meths': 'Acciones|Platicas'}
+{'type':'umlshape', 'id':'Valladares', 'x':457, 'y':339, 'width':110, 'height':64, 'attrs': '', 'meths': 'vida'}
+{'type':'umlshape', 'id':'ABC', 'x':270, 'y':128, 'width':40, 'height':29, 'attrs': '', 'meths': ''}
+{'type':'edge', 'id':'NoAyuda_to_ABC', 'source':'NoAyuda', 'target':'ABC', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Gulag_America_to_ABC', 'source':'Gulag_America', 'target':'ABC', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Carcel_to_Gulag_America', 'source':'Carcel', 'target':'Gulag_America', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Ayuda_to_ABC', 'source':'Ayuda', 'target':'ABC', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Boitel_to_Ayuda', 'source':'Boitel', 'target':'Ayuda', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Castro_to_NoAyuda', 'source':'Castro', 'target':'NoAyuda', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Martha_to_Ayuda', 'source':'Martha', 'target':'Ayuda', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Onu_to_Gulag_America', 'source':'Onu', 'target':'Gulag_America', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Capitan_Mentiras_to_NoAyuda', 'source':'Capitan_Mentiras', 'target':'NoAyuda', 'uml_edge_type': 'generalisation'}

@@ -1,0 +1,17 @@
+# PynSource Version 1.2
+{'type':'meta', 'info1':'Lorem ipsum dolor sit amet, consectetur adipiscing elit is latin. Comments are saved.'}
+{'type':'umlshape', 'id':'PersonaLibre', 'x':345, 'y':123, 'width':130, 'height':29, 'attrs': '', 'meths': ''}
+{'type':'umlshape', 'id':'CampesinoMilitar', 'x':323, 'y':7, 'width':170, 'height':64, 'attrs': '', 'meths': 'MandarCartas'}
+{'type':'umlshape', 'id':'PresoComun', 'x':196, 'y':115, 'width':110, 'height':64, 'attrs': '', 'meths': 'MandarCartas'}
+{'type':'umlshape', 'id':'PresoPolitico', 'x':341, 'y':348, 'width':140, 'height':79, 'attrs': '', 'meths': 'Leer|Escribir'}
+{'type':'umlshape', 'id':'Ayudadapter', 'x':352, 'y':206, 'width':120, 'height':104, 'attrs': '_PresoPolitico', 'meths': '__init__|MandarCartas'}
+{'type':'umlshape', 'id':'Escritos', 'x':8, 'y':94, 'width':90, 'height':119, 'attrs': 'Armando|Pedro|Ulises', 'meths': '__init__'}
+{'type':'umlshape', 'id':'ABC', 'x':539, 'y':85, 'width':40, 'height':29, 'attrs': '', 'meths': ''}
+{'type':'edge', 'id':'PersonaLibre_to_ABC', 'source':'PersonaLibre', 'target':'ABC', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Ayudadapter_to_PersonaLibre', 'source':'Ayudadapter', 'target':'PersonaLibre', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'CampesinoMilitar_to_PersonaLibre', 'source':'CampesinoMilitar', 'target':'PersonaLibre', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'PresoComun_to_PersonaLibre', 'source':'PresoComun', 'target':'PersonaLibre', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'CampesinoMilitar_to_Escritos', 'source':'CampesinoMilitar', 'target':'Escritos', 'uml_edge_type': 'composition'}
+{'type':'edge', 'id':'PresoComun_to_Escritos', 'source':'PresoComun', 'target':'Escritos', 'uml_edge_type': 'composition'}
+{'type':'edge', 'id':'PresoPolitico_to_Ayudadapter', 'source':'PresoPolitico', 'target':'Ayudadapter', 'uml_edge_type': 'composition'}
+{'type':'edge', 'id':'Ayudadapter_to_Escritos', 'source':'Ayudadapter', 'target':'Escritos', 'uml_edge_type': 'composition'}
